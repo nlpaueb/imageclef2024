@@ -2,7 +2,9 @@
 # AUEB NLP Group at ImageCLEFmedical Caption 2024
 
 ### Details
-This repository includes the approaches that the AUEB NLP Group experimented with during its participation in the 8th edition of the ImageCLEFmedical Caption evaluation campaign, including both Concept Detection and Caption Prediction tasks. 
+This repository includes the approaches that the AUEB NLP Group experimented with during its participation in the 8th edition of the [ImageCLEFmedical Caption evaluation campaign](https://www.imageclef.org/2024/medical/caption), including both Concept Detection and Caption Prediction tasks.
+
+The paper for this project will be announced soon.
 
 ### Cite
 If you find our work useful please cite our paper:
