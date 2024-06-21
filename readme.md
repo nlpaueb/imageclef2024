@@ -15,6 +15,7 @@ The paper for this project will be announced soon.
 ### Cite
 If you find our work useful please cite our paper:
 
+
 ```
 @inproceedings{samprovalaki-2024-aueb,
  address = {Grenoble, France},
@@ -22,7 +23,7 @@ If you find our work useful please cite our paper:
  booktitle = {CLEF2024 Working Notes},
  publisher = {CEUR-WS.org},
  series = {CEUR Workshop Proceedings},
- title = {{AUEB NLP Group at ImageCLEFmedical Caption 2024: Participation in the Caption Task}},
+ title = {{AUEB NLP Group at ImageCLEFmedical Caption 2024}},
  year = {2024}
 }
 ```
