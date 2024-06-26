@@ -1,0 +1,3 @@
+[submodule "dmmcs"]
+	path = dmmcs
+	url = https://github.com/nlpaueb/dmmcs.git
