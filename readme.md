@@ -12,8 +12,57 @@ Our submissions for the Caption Prediction sub-task focused on four primary syst
 
 The paper for this project will be announced soon.
 
-### Cite
-If you find our work useful please cite our paper:
+### Installation
+To get started with our models, follow these steps to clone the repository and install the required packages. We recommend using a virtual environment for package installation to ensure a clean and isolated setup.
+
+## Caption Prediction
+
+### Step 1: Clone the repository
+
+```
+git clone git@github.com:nlpaueb/imageclef2024.git
+cd imageclef2024
+```
+
+### Step 2: Create and activate a virtual environment
+
+We have tested our framework for Conda environment.
+
+#### Conda
+
+```
+conda create -n imageclef_env python=3.9
+conda activate imageclef_env
+pip install -r requirements.txt
+```
+## Usage
+
+### Step 1: Generate the initial captions using any image captioning model, we have used the InstructBLIP model. (for both Synthesizer and Rephraser)
+
+You can train and/or infer from an InstructBLIP model or any image captioning model you want in order to generate the initial captions that are gonna be changed then using our models.
+
+```
+python3 instructBLIP-ft.py --config ../config/config.json
+```
+
+### Step 2: Create your neighbor dataset (only for the Synthesizer)
+
+You have to create a csv that will contain 2 columns. In the first one, you should add the path for each image and in the second column the number of neighbors you have locate. For now, we have made experiments using 1, 3 or 5 neighbors with the latter case having the best results. 
+
+### Step 3: Run training and/or inference 
+#### Rephraser
+
+#### Synthesizer
+
+```
+python3 trainer.py 
+```
+
+Please make sure to adjust the paths in the file to your own local paths and directories.
+
+
+### Citation
+If you would like to use our work, please cite us using the following bibtex reference:
 
 
 ```
@@ -27,5 +76,3 @@ If you find our work useful please cite our paper:
  year = {2024}
 }
 ```
-
-
