@@ -39,17 +39,19 @@ pip install -r requirements.txt
 
 ### Step 1: Generate the initial captions using any image captioning model, we have used the InstructBLIP model. (for both Synthesizer and Rephraser)
 
-You can train and/or infer from an InstructBLIP model or any image captioning model you want in order to generate the initial captions that are gonna be changed then using our models.
+You can train and/or use an InstructBLIP model, or any image captioning model of your choice, to generate the initial captions. These captions will then be refined using our models.
 
 ```
 python3 instructBLIP-ft.py --config ../config/config.json
 ```
 
 ### Step 2: Create your neighbor dataset (only for the Synthesizer)
+You need to create a CSV file with two columns. The first column should contain the path for each image, and the second column should indicate the number of neighbors you have identified. Currently, we have conducted experiments using 1, 3, or 5 neighbors, with the best results obtained from using 5 neighbors.
 
-You have to create a csv that will contain 2 columns. In the first one, you should add the path for each image and in the second column the number of neighbors you have locate. For now, we have made experiments using 1, 3 or 5 neighbors with the latter case having the best results. 
 
 ### Step 3: Run training and/or inference 
+You can use both of our models together or each one separately.
+
 ### Rephraser
 
 ### Synthesizer
