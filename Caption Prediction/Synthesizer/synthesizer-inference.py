@@ -5,9 +5,6 @@ from tqdm import tqdm
 
 # Load model and tokenizer
 model_path = '/home/msamprovalaki/models/instructblip-flan-t5-large-patience-7-valid/'
-# Alternative model paths
-# model_path = '/home/msamprovalaki/models/instructblip-flan-t5-large-patience-7-valid-diff-prompt/'
-# model_path = '/home/msamprovalaki/models/instructblip-flan-t5-large-valid-set-1neighbor/'
 
 finetuned_model = T5ForConditionalGeneration.from_pretrained(model_path)
 tokenizer = AutoTokenizer.from_pretrained(model_path)
