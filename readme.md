@@ -50,13 +50,21 @@ python3 instructBLIP-ft.py --config ../config/config.json
 You have to create a csv that will contain 2 columns. In the first one, you should add the path for each image and in the second column the number of neighbors you have locate. For now, we have made experiments using 1, 3 or 5 neighbors with the latter case having the best results. 
 
 ### Step 3: Run training and/or inference 
-#### Rephraser
+### Rephraser
 
-#### Synthesizer
+### Synthesizer
+#### Train
 
 ```
 python3 trainer.py 
 ```
+
+#### Inference
+
+```
+python3 synthesizer-inference.py 
+```
+
 
 Please make sure to adjust the paths in the file to your own local paths and directories.
 
