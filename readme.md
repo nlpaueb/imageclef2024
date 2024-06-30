@@ -1,7 +1,7 @@
 
 # AUEB NLP Group at ImageCLEFmedical Caption 2024
 
-### Details
+## Details
 This repository includes the approaches that the AUEB NLP Group experimented with during its participation in the 8th edition of the [ImageCLEFmedical Caption evaluation campaign](https://www.imageclef.org/2024/medical/caption), including both Concept Detection and Caption Prediction tasks.
 
 ### Concept Detection
@@ -12,10 +12,8 @@ Our submissions for the Caption Prediction sub-task focused on four primary syst
 
 The paper for this project will be announced soon.
 
-### Installation
+## Installation
 To get started with our models, follow these steps to clone the repository and install the required packages. We recommend using a virtual environment for package installation to ensure a clean and isolated setup.
-
-## Caption Prediction
 
 ### Step 1: Clone the repository
 
